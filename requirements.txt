@@ -1,0 +1,22 @@
+# FileLock - Biblioteca para manejo de bloqueos de archivo
+# 
+# Dependencias mínimas para el funcionamiento básico
+# No se requieren dependencias externas para las clases principales
+# 
+# Para desarrollo y testing:
+# pytest>=7.0.0
+# pytest-asyncio>=0.21.0
+# black>=23.0.0
+# flake8>=6.0.0
+
+# Dependencias del sistema (ya incluidas en Python):
+# - fcntl (para sistemas Unix/Linux/macOS)
+# - asyncio (para funcionalidad asíncrona)
+# - threading (para ejemplos con hilos)
+# - json (para ejemplos de datos estructurados)
+# - datetime (para timestamps)
+# - uuid (para IDs únicos)
+# - enum (para enumeraciones)
+
+# Nota: Esta biblioteca utiliza únicamente módulos de la biblioteca estándar de Python
+# y no requiere instalación de paquetes adicionales para su funcionamiento básico.
